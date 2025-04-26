@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    android:padding="32dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="5"
+            android:columnCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:useDefaultMargins="true">
+
+            <!-- Fila 1: 7, 8, 9 -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="7" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="8" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="9" />
+
+            <!-- Fila 2: 4, 5, 6 -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="4" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="5" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="6" />
+
+            <!-- Fila 3: 1, 2, 3 -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="1" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="2" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="3" />
+
+            <!-- Fila 4: <- | -> -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="&lt;-" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="|" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_border"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:text="-&gt;" />
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>
